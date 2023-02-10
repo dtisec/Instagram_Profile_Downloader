@@ -10,11 +10,8 @@ dp = input("Kullanıcı adı giriniz : ")
 
 ig.download_profile(dp , profile_pic_only=True)
 
-
-
 insta_url='https://www.instagram.com'
 inta_username= input('kullanıcı adı giriniz : ')
-
 
 response = requests.get(f"{insta_url}/{inta_username}/")
 
